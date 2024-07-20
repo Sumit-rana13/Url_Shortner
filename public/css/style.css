@@ -7,14 +7,35 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    /* display: flex; */
-    /* justify-content: center; */
 }
 
-.container{
-    width: 70%;
+.container1{
+    max-width: 400px;
     margin: auto;
+    margin-bottom: 8px;
     
+}
+
+.container2{
+    /* min-width: 500px;    */
+    margin-bottom: 10px;
+    font-size: medium;
+    font-weight:400;
+}
+.container2 table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin-top: 10px;
+    
+}
+.container2 th, .container2 td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    max-width: 500px; 
 }
 
 .btn{
